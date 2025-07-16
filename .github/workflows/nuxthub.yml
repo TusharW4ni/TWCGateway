@@ -25,7 +25,7 @@ jobs:
         run: pnpm install
 
       - name: Seed database
-        run: pnpm nuxi task seed
+        run: pnpm run seed
 
       - name: Ensure NuxtHub module is installed
         run: pnpx nuxthub@latest ensure
