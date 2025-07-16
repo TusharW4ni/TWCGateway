@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "twcg-api-testing",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
